@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>All About CSS3</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<style>
+		article{
+			background-image: url(images/cute-kitten-pleading-bw.jpg);
+			width: 300px;
+			height: 300px;
+			background-size: cover;
+			margin-left: 30px;
+			float: left;
+		}
+		article:hover{
+			background-image: url(images/cute-kitten-pleading.jpg);
+		}
+		article h3{
+			padding-top: 80px;
+		}
+		article:nth-child(2){
+			background-image: url(images/cute-cat-sleeping.jpg);
+			opacity: 0.65;
+		}
+		/*
+		The z-index property specifies the stack order of an element.
+
+		An element with greater stack order is always in front of an element with a lower stack order.
+
+		z-index only works on positioned elements (position:absolute, position:relative, or position:fixed).
+		*/
+		article:nth-child(2):hover{
+			position: relative;
+			z-index: 1;
+			opacity: 1.0;
+		}
+		article:nth-child(3){
+			background-image: url(images/cute-kitten-on-its-back.jpg);
+			background-size: contain;
+			background-repeat: no-repeat;
+			position: relative;
+			top: 200px;
+			left: -100px;
+			opacity: 0.65;
+		}
+		article:nth-child(3):hover{
+			position: relative;
+			z-index: 1;
+			opacity: 1.0;
+		}
+	</style>
+</head>
+<body>
+	<!-- use a div to contain all of the sites content. you can call this div wrapper, page, container. -->
+	<div id="wrapper" class="clear">
+		<header>
+			<h1>The other pages on this site are all about CSS3</h1>
+			<h2>The latest standard for CSS</h2>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="full-screen-bg.html">Full Screen Background</a></li>
+					<li><a href="full-screen-bg-responsive.html">Full Screen Responsive Background</a></li>
+					<li><a href="columns.html">CSS3 Multi Columns</a></li>
+					<li><a href="image-rollover.html">Image Rollover</a></li>
+					<li><a href="http://www.w3schools.com/css/css3_intro.asp">W3Schools CSS3 Intro</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="content">
+			<article>
+				<h3>Image Rollover</h3>
+			</article>
+			<article>
+				<h3>Z Index</h3>
+			</article>
+			<article>
+				<h3>Z Index</h3>
+			</article>
+		</div><!-- end of main content -->
+		<footer><p>copyright &copy; 2015 Michell J Cardona, ALl rights reserver. For Educational Purposes Only.</p></footer>
+	</div><!-- end of wrapper -->
+</body>
+</html>

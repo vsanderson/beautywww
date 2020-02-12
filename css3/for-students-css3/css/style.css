@@ -1,0 +1,311 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+}
+#wrapper{
+	width: 1300px;
+	margin: 50px auto;
+	padding: 0 10px 10px 30px;
+	background-color: #eee;
+}
+header{
+	margin: 0px 10px;
+	padding-top: 10px;
+	line-height: 24px;
+}
+nav ul{
+	padding: 0;
+	margin-left: 20px;
+}
+nav li{
+	display: inline;
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #fb2e01;
+}
+a:visited{
+	color: #000;
+}
+a:hover{
+	text-transform: uppercase;
+}
+a:active{
+	font-weight: 400;
+}
+h1, h2, h3{
+	color: #33c0e0 ;
+	font-weight: 300;
+	margin-left: 20px;
+}
+h1{
+	font-size: 3em;
+	color: #fb2e01;
+}	
+h2{
+	font-size: 2em;
+}
+.article-container h3{
+	font-size: 1.75em;
+	color: #fb2e01;
+	width:275px;
+}
+.article-container{
+	width:300px;
+	height:300px;
+	margin: 10px;
+	background-color: #ddd;
+	float:left;
+}
+#content div:first-child{
+	width:290px;
+	height:290px;
+	border-top: 5px dashed #fb2e01;
+	border-right: 5px dotted #009688;
+	border-bottom: 5px double #666547;
+	border-left: 5px solid #800080;
+}
+#content div:nth-child(2){
+	border-radius:25px 75px 150px 0px;
+}
+#content div:nth-child(3){
+	width:250px;
+	height:250px;
+	border:25px solid transparent;
+	-webkit-border-image: url(../images/border.png) 30 30 round; /* Safari 3.1-5 */
+	-o-border-image: url(../images/border.png) 30 30 round; /* Opera 11-12.1 */
+	border-image: url(../images/border.png) 30 30 round;
+} 
+#content div:nth-child(5){
+	background-image: url(../images/cute-kitten-pleading.jpg), url(../images/cute-kitten-on-its-back.jpg);
+	background-position: right bottom, left top;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 275px, 275px;
+}
+/* #content div:nth-child(5){
+	background-image: url(../images/cute-kitten-pleading.jpg) right bottom no-repeat;
+}*/
+#content div:nth-child(6){
+	width: 270px;
+	height: 270px;
+	border: 5px dashed #000;
+	padding: 10px;
+	background-image: url(../images/cute-cat-sleeping.jpg);
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-clip:content-box;
+}
+#content div:nth-child(7){
+	background-image: url(../images/mystic_wolf_1280_960_fullscreen_wolves_let_get_desktop_1280x960_hd-wallpaper-694487.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#content div:nth-child(7) h3{
+	position: relative;
+	top:200px;
+}
+#content div:nth-child(8){
+	background-image: url(../images/mystic_wolf_1280_960_fullscreen_wolves_let_get_desktop_1280x960_hd-wallpaper-694487.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#content div:nth-child(8) h3{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 10px;
+	position: relative;
+	left:-20px;
+}
+#content div:nth-child(9){
+	background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(red, blue); /* Standard syntax */
+}
+#content div:nth-child(10){
+	background: -webkit-linear-gradient(left, green , blue); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, green, blue); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, green, blue); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, green, blue); /* Standard syntax */
+}
+#content div:nth-child(11){
+	background: -webkit-linear-gradient(45deg, red, blue); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(45deg, red, blue); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(45deg, red, blue); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(45deg, red, blue); /* Standard syntax */
+}
+#content div:nth-child(12){
+	background: -webkit-linear-gradient(right, red, orange, yellow, green, aqua, purple); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, red, orange, yellow, green, aqua, purple); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, red, orange, yellow, green, aqua, purple); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(right, red, orange, yellow, green, aqua, purple); /* Standard syntax */
+}
+#content div:nth-child(13) h3{
+	
+}
+#content div:nth-child(14) h3{
+	
+}
+#content div:nth-child(15){
+	
+}
+#content div:nth-child(16){
+	
+}
+.transform{
+	width: 100px;
+	height: 100px;
+	background-color: #ff6600;
+}
+#content div:nth-child(17) .transform{
+	-ms-transform: translate(100px,50px); /* IE 9 */
+   	-webkit-transform: translate(100px,50px); /* Safari */
+    transform: translate(100px,50px);
+}
+#content div:nth-child(18) .transform{
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(30deg);
+}
+#content div:nth-child(19) .transform{
+	-ms-transform: scale(0.5, 0.75); /* IE 9 */
+    -webkit-transform: scale(0.5,0.75); /* Safari */
+    transform: scale(0.5, 0.75);
+}
+#content div:nth-child(20) .transform{
+	-ms-transform: skewY(-20deg); /* IE 9 */
+    -webkit-transform: skewY(-20deg); /* Safari */
+    transform: skewY(-20deg);
+}
+#content div:nth-child(21) .transform:hover{
+	-ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(0.5, 0.5);
+}
+#content div:nth-child(22) .transform:hover{
+	-webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg);
+}
+#content div:nth-child(23) .transform:hover{
+	-webkit-transform: rotateY(130deg); /* Safari */
+    transform: rotateY(130deg);
+}
+#content div:nth-child(24) .transform:hover{
+	-webkit-transform: rotateZ(90deg); /* Safari */
+    transform: rotateZ(90deg);
+}
+#content div:nth-child(25) .transform:hover{
+	-webkit-transition: width 5s; /* Safari */
+    transition: width 5s;
+    width: 300px;
+}
+#content div:nth-child(26) .transform:hover{
+	-webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+    width: 300px;
+    height: 150px;
+}
+#content div:nth-child(27) .transform:hover{
+	-webkit-transition: width 2s, height 4s; /* Safari */
+    transition: width 2s, height 4s;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
+    width: 200px;
+    height: 120px;
+}
+#content div:nth-child(28) .transform:hover{
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+#content div:nth-child(28) .transform:hover{
+    width: 150px;
+    height: 150px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}
+#content div:nth-child(29) .transform{
+	-webkit-animation-name: colorChange; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: colorChange;
+    animation-duration: 4s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes colorChange {
+    from {
+    	background-color: #ff6600;
+    }
+    to {
+    	background-color: #249989;
+	}
+}
+/* Standard syntax */
+@keyframes colorChange {
+    from {
+    	background-color: #ff6600;
+    }
+    to {
+    	background-color: #249989;
+    }
+}
+#content div:nth-child(30) .transform{
+	-webkit-animation-name: colorChangeMult; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 15s; /* Chrome, Safari, Opera */
+    animation-name: colorChangeMult;
+    animation-duration: 15s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes colorChangeMult {
+    0%   {
+    	background-color: red;
+    }
+    25%  {
+    	background-color: yellow;
+    }
+    50%  {
+    	background-color: blue;
+    }
+    100% {
+    	background-color: green;
+    }
+}
+/* Standard syntax */
+@keyframes colorChangeMult {
+    0%   {
+    	background-color: red;
+    }
+    25%  {
+    	background-color: yellow;
+    }
+    50%  {
+    	background-color: blue;
+    }
+    100% {
+    	background-color: green;
+    }
+}
+/*------------ columns ------------- */
+.columnContent{
+	
+}
+/*------------ footer -------------- */
+footer{
+	width: 100%;
+	margin: 10px;
+	float: left;
+	font-size: 0.75em;
+}
+footer p{
+	margin-left: 20px;
+}
+/*--- use when wrapper collapses --- */
+.clear:after{
+	content: ".";
+	display: block;
+	clear:both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
